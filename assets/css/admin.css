@@ -217,9 +217,10 @@ table tr td {
 
 .ttn {
     max-width: 980px;
-    background-image: url(/assets/img/banner.png);
+    background-image: url(https://img4.thuthuatphanmem.vn/uploads/2020/12/25/banner-blue-background_060828176.jpg);
     margin-right: 390px;
     height: 100px;
+    background-position: center;
 }
 
 .fot {
