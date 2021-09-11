@@ -216,7 +216,7 @@ table tr td {
 }
 
 .ttn {
-    max-width: 980px;
+    max-width: 100%px;
     background-image: url(https://img4.thuthuatphanmem.vn/uploads/2020/12/25/banner-blue-background_060828176.jpg);
     margin-right: 390px;
     height: 100px;
@@ -495,7 +495,7 @@ nav ul ul li a {
 
 .div1 {
     margin-top: 0px;
-    margin-left: 20px;
+    margin-left: 20%;
 }
 
 .div1 a {
@@ -570,12 +570,16 @@ nav ul ul li a {
     padding: 20px 25px;
 }
 
+.home4 i {
+    margin-left: -1px;
+}
+
 .margincol {
-    margin-left: 75px;
+    margin-left: 30%;
 }
 
 .margincol2 {
-    margin-left: 125px;
+    margin-left: 30%;
 }
 
 /* -------------------- */
