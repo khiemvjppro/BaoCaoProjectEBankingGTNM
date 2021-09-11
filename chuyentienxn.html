@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xác nhận chuyển tiền</title>
+
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/grid.css">
+  <link rel="stylesheet" href="./assets/fonts/themify-icons.css">
+  <link rel="stylesheet" href="./assets/css/news-infomation.css">
+  <link rel="stylesheet" href="./assets/css/admin.css">
+  <link rel="stylesheet" href="./assets/css/admin-info.css">
+  <link rel="stylesheet" href="./assets/css/modal.css">
+  <script src="./assets/js/chuyentienxn.js"></script>
+
+</head>
+
+<body>
+  <div class="loader">
+    <img src="./assets/img/loading.gif" alt="Loading..." />
+</div>
+  <div id="main" class="">
+    <nav class="sidebar l-12 m-0 c-0">
+      <ul>
+        <li><a href="#">E - BANKING</a></li>
+        <li>
+          <div class="img">
+            <img src="./assets/img/daidien.png">
+          </div>
+
+        </li>
+      </ul>
+    </nav>
+    <nav class="ktmduke">
+      <a href="./index.html" style="text-decoration: none;">
+        <div class="home"><i class=ti-home></i></div>
+      </a>
+      
+      <div class="home-right">
+        <div class="home4" id="js-buy-ticket3"><i class=ti-headphone-alt></i></div>
+        <div class="home4" id="js-buy-ticket2"><i class="ti-bell"></i></div>
+        <button class="home4" id="js-buy-ticket1"><i class=ti-settings></i></button>
+      </div>
+      <div class="home3">
+        <p class="texthome3">Ngôn ngữ</p>
+        <a href="">
+          <img src="./assets/img/c.png" alt="">
+          <img src="./assets/img/co.png">
+        </a>
+      </div>
+
+    </nav>
+
+
+
+    <!--  -->
+
+
+    <div class="ttn data-name colordfdfdf "></div>
+    <div class="ttnt data-name colordfdfdf ">
+      <!-- <div class="row ">
+                  <div class ="col cailan l-3">
+                      <div class="tron"><p>1</p></div>
+                      <div class = "chu row"> <p>con cac</p></div>
+                  </div>
+                  <div class ="col l-3">
+                    <div class="tron"><p>2</p></div>
+                  </div>
+                   <div class ="col l-3">
+                        <div class="tron"><p>3</p></div>
+                 </div>
+                  <div class ="col l-3">
+                         <div class="tron"><p>4</p></div>
+                  </div>
+                
+            </div> -->
+      <div class="cailan">
+        <img src="./assets/img/xnchuyentien.png">
+      </div>
+      <div class="row nhap">
+        <div class="col l-4 colchu">Hình thức chuyển</div>
+        <div class="col l-8 colnhap">
+          <p id="ht"></p>
+        </div>
+        <div class="col l-4 colchu">Tài khoản nguồn</div>
+        <div class="col l-8 colnhap">
+          <p id="tknguon"></p>
+        </div>
+      </div>
+
+      <div class="row nhap">
+        <div class="col l-4 colchu">Tài khoản đích</div>
+        <div class="col l-8 colnhap">
+          <p id="stk"></p>
+        </div>
+        <div class="col l-4 colchu">Tên người thụ hưởng</div>
+        <div class="col l-8 colnhap">
+          <p id="tennguoithuhuong">Lê Hoàng Ân </p>
+        </div>
+        <div class="col l-4 colchu">Số tiền</div>
+        <div class="col l-8 colnhap">
+          <p id="sotien"></p>
+        </div>
+        <div class="col l-4 colchu">Số tiền phí</div>
+        <div class="col l-8 colnhap">
+          <p id="sotienphi"></p>
+        </div>
+        <div class="col l-4 colchu">Phí giao dịch</div>
+        <div class="col l-8 colnhap">
+          <p id="phigd"></p>
+        </div>
+        <div class="col l-4 colchu">Nội dung</div>
+        <div class="col l-8 colnhap">
+          <p id="noidung"></p>
+        </div>
+      </div>
+
+      <div class="row nhap">
+        <div class="col l-4 colchu">Phương thức xác thực</div>
+        <div class="col l-8 colnhap">
+          <select id="orient" name="orient">
+            <option value="dong">Smart OTP</option>
+          </select>
+        </div>
+        <div class="col l-4 colchu">Số điện thoại nhận mã OTP</div>
+        <div class="col l-8 colnhap">
+          <P>0372253243</P>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col l-4 l-o-2 close"><a href="./chuyentien.html"><button class="btnth">Trở về</button></a></div>
+        <div class="col l-3 ok"><a href="./chuyentienxt.html"><button class="btnth">Xác nhận</button></a></div>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+  </div>
+
+
+
+
+
+  </div>
+
+  <!-- ------------------------------- -->
+
+  <!-- ------------------------------- -->
+
+  <div id="footer " class="grid">
+    <div class="fot row">
+      <div class=" col l-sub"><a href="./index.html">Trang chủ</a></div>
+      <div class=" col t l-sub">
+        <p>Hướng dẫn sử dụng dịch vụ</p>
+      </div>
+      <div class=" col t l-sub">
+        <p>Hướng dẫn giao dịch an toàn</p>
+      </div>
+      <div class=" col l-sub">
+        <p id="js-buy-ticket">Phản hồi của khách hàng</p>
+      </div>
+    </div>
+  </div>
+  <!-- ---------------------------------------------------------------- -->
+  <!-- -------------------------------------------Modal ý kiến kh -->
+  <div class="modal js-modal">
+    <div class="modal-container js-modal-container">
+      <div class="modal-close js-modal-close">
+        <i class="ti-close"></i>
+      </div>
+      <header class="modal-header">Phản hồi ý kiến
+      </header>
+      <div class="modal-body">
+        <label for="tickets-quatity" class="modal-lable">
+          Thông tin liên hệ
+        </label>
+        <input id="tickets-quatity" placeholder="Địa chỉ email hoặc SĐT" type="text" class="modal-input">
+
+        <label for="tickets-email" class="modal-lable">
+          Yêu cầu hỗ trợ
+        </label>
+        <input id="tickets-email" placeholder="Mô tả chi tiết" type="email" class="modal-input">
+        <button id="buy-tickets">
+          Gửi
+        </button>
+      </div>
+      <footer class="modal-footer">
+        <p class="modal-help">
+          <a href="">1900 9999</a>
+
+        </p>
+      </footer>
+    </div>
+  </div>
+
+  <!-- -------------------------------------------Modal setting -->
+  <div class="modal js-modal-setting">
+    <div class="modal-container js-modal-container1">
+      <div class="modal-close js-modal-close1">
+        <i class="ti-close"></i>
+      </div>
+      <header class="modal-header" data-bs-toggle="tooltip" title="hhhhh">Cài đặt
+      </header>
+      <div class="modal-body">
+        <div class="">
+          <a href="">Lịch sử giao dịch</a>
+          <div class="">
+            <a href="">Liên hệ</a>
+
+          </div>
+          <div class=""><a href="">Quan hệ đầu tư</a>
+          </div>
+          <div class=""><a href="">Tuyển dụng</a></div>
+        </div>
+      </div>
+      <footer class="modal-footer">
+        <p class="modal-help">
+          <a href="" style="font-size: 15px;">Đăng xuất</a>
+
+        </p>
+      </footer>
+    </div>
+  </div>
+
+  <!-- ----------------------------------------------------------------------------------- -->
+  <!-- -------------------------------------------Modal setting -->
+  <div class="modal js-modal-notify">
+    <div class="modal-container js-modal-container2" style="height: 500px;">
+      <div class="modal-close js-modal-close2">
+        <i class="ti-close"></i>
+      </div>
+      <header class="modal-header">Thông báo
+      </header>
+      <div class="modal-body">
+        <div class="">
+          <div class="" style="padding: 20px 0;">
+            <a href="" style="font-size: 20px;">Lê Trọng Khiêm 19130102</a>
+          </div>
+          <div class="" style="padding: 20px 0;">
+            <a href="" style="font-size: 20px;">Lê Hoàng Ân 1913000</a>
+          </div>
+        </div>
+      </div>
+      </footer>
+    </div>
+  </div>
+
+  <div class="modal js-modal-notify1">
+    <div class="modal-container js-modal-container3" style="height: 500px;" >
+      <div class="modal-close js-modal-close3">
+        <i class="ti-close"></i>
+      </div>
+      <header class="modal-header">Thông báo
+      </header>
+      <div class="modal-body">
+        <div class="">
+          <div class="" style="padding: 20px 0;">
+            <a href="" style="font-size: 20px;">Lê Trọng Khiêm 19130102</a>
+          </div>
+          <div class="" style="padding: 20px 0;">
+            <a href="" style="font-size: 20px;">Lê Hoàng Ân 1913000</a>
+          </div>
+        </div>
+      </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="./assets/js/caidat.js"></script>
+
+</body>
+
+</html>
+
+
+<!-- nha kich thuoc 340 290 -->
