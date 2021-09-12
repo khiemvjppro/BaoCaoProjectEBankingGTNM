@@ -1088,7 +1088,7 @@ input[type="password"], select, textarea {
 }
 
 .nhap {
-  margin-left: 90px;
+  margin-left: 20%;
   background-color: #a9dcf6;
   width: 760px;
   margin-top: 10px;
@@ -1133,7 +1133,7 @@ input[type="text"], select, textarea {
 
 .ocef button {
   margin-top: 20px;
-  margin-left: 400px;
+  margin-left: 550px;
   border: none;
   color: #fff;
   background-color: #0b8cd9;
